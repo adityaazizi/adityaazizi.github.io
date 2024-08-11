@@ -25,7 +25,6 @@ dist-ssr
 
 .DS_Store
 node_modules/
-.vite
 dist/
 build/
 .env

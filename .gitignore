@@ -24,9 +24,6 @@ dist-ssr
 *.sw?
 
 .DS_Store
-.vscode
-node_modules/
-.vite
 node_modules/
 .vite
 dist/

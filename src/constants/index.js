@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `A passionate AI and Software Engineer specializing in model development and data analysis, leveraging advanced techniques to create robust and scalable solutions. With a keen focus on delivering cutting-edge technologies, dedicated to optimizing processes and enhancing decision-making capabilities. Committed to innovation, consistently staying at the forefront of the ever-evolving tech landscape to provide the most effective and efficient solutions for complex problems.`;
 
@@ -94,32 +93,25 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
+    title: "Vehicle Counting and Speed Estimation using YOLOv10",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This project demonstrates the application of advanced computer vision techniques for real-time vehicle counting and speed estimation. By utilizing the YOLOv10 model, the system efficiently detect, count and tracks vehicles in video footage, providing accurate speed calculations based on movement trajectories.",
+    technologies: ["Python", "Ultralytics", "Supervision", "OpenCV"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Student Bullying Analysis from Jabar Open Data",
+    image: project2,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Capstone Project undertaken during the Generasi GIGIH 3.0 program, Data Analyst Track by GOTO Impact Foundation. Our team was honored with the Best Team award for contributing to Sustainable Development Goal 4: Quality Education.",
+    technologies: ["Python", "SQL", "Looker Studio", "Data Analysis"],
+  },
+  {
+    title: "E-Mail Automation using Python and SMTP",
+    image: project1,
+    description:
+      "This project is a practical implementation of basic Python programming concepts that I learned during my initial stages of learning. The program automates the process of sending emails, including subjects, attachments, and message content, to multiple recipients list.",
+    technologies: ["Python", "SMTP", "CRUD"],
   },
 ];
 

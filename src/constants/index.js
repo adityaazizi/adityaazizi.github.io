@@ -1,6 +1,9 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.png";
+import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `A passionate AI and Software Engineer specializing in model development and data analysis, leveraging advanced techniques to create robust and scalable solutions. With a keen focus on delivering cutting-edge technologies, dedicated to optimizing processes and enhancing decision-making capabilities. Committed to innovation, consistently staying at the forefront of the ever-evolving tech landscape to provide the most effective and efficient solutions for complex problems.`;
 
@@ -10,7 +13,7 @@ export const EDUCATIONS = [
     university: "Universitas Sebelas Maret",
     location: "Surakarta, Indonesia",
     degree: "Bachelor Degree in Computer Science",
-    description: `Graduated with honors (Cumlaude), awarded Most Outstanding Student 2023 in the Faculty of Information Technology and Data Science, and named Most Inspirational Student 2022 in the Informatics Department. Additionally, runner-up in the Gemastik XV ICT Scientific Paper Competition 2022 by Puspresnas Kemendikbudristek.`,
+    description: `Graduated with honors (Cumlaude) with GPA 3.71/4.00. Awarded Most Outstanding Student 2023 in the Faculty of Information Technology and Data Science, and named Most Inspirational Student 2022 in the Informatics Department. Additionally, runner-up in the Gemastik XV ICT Scientific Paper Competition 2022 by Puspresnas Kemendikbudristek.`,
   },
 ];
 
@@ -96,21 +99,42 @@ export const PROJECTS = [
     title: "Vehicle Counting and Speed Estimation using YOLOv10",
     image: project3,
     description:
-      "This project demonstrates the application of advanced computer vision techniques for real-time vehicle counting and speed estimation. By utilizing the YOLOv10 model, the system efficiently detect, count and tracks vehicles in video footage, providing accurate speed calculations based on movement trajectories.",
+      "This project demonstrates the application of advanced computer vision techniques for real-time vehicle counting and speed estimation. By utilizing the YOLOv10 model, the system efficiently detects, counts, and tracks vehicles in video footage, providing accurate speed calculations based on movement trajectories. This project showcases my ability to implement cutting-edge AI models in practical applications, contributing to improved traffic monitoring and management solutions.",
     technologies: ["Python", "Ultralytics", "Supervision", "OpenCV"],
+  },
+  {
+    title: "Simple RAG Project using Langchain, OpenAI and Pinecone",
+    image: project6,
+    description:
+      "I built a simple Retrieval-Augmented Generation (RAG) project using LangChain, OpenAI API, and Pinecone vector database. This project integrates advanced natural language processing techniques to retrieve relevant information from a large dataset and generate coherent responses. Additionally, I implemented automated testing using Giskard to ensure the robustness and reliability of the system to stay intelligent, responsive, and dependable systems.",
+    technologies: ["Python", "Langchain", "OpenAI API", "Pinecone"],
   },
   {
     title: "Student Bullying Analysis from Jabar Open Data",
     image: project2,
     description:
-      "Capstone Project undertaken during the Generasi GIGIH 3.0 program, Data Analyst Track by GOTO Impact Foundation. Our team was honored with the Best Team award for contributing to Sustainable Development Goal 4: Quality Education.",
-    technologies: ["Python", "SQL", "Looker Studio", "Data Analysis"],
+      "This Capstone Project was undertaken during the Generasi GIGIH 3.0 program, Data Analyst Track, organized by the GOTO Impact Foundation. Our team was honored with the Best Team award for our significant contributions to Sustainable Development Goal 4: Quality Education. This project involved applying data analysis techniques to address educational challenges, showcasing my ability to leverage data-driven insights for impactful social change.",
+    technologies: ["Python", "SQL", "Looker Studio"],
+  },
+  {
+    title: "ADResNet: Attention Guidded Residual Attention Network",
+    image: project5,
+    description:
+      "I developed a project called ADResNet: Attention Guided Residual Network for color embedded grayscale image reconstruction. In this research, I proposed a novel solution that outperforms previous methods in both Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index (SSIM) while maintaining a lower parameter count. This work exemplifies my ability to innovate within the field of computer vision, pushing the boundaries of existing techniques to achieve superior results with greater efficiency.",
+    technologies: ["Python", "OpenCV", "PyTorch"],
+  },
+  {
+    title: "CARSNet: Channel Attention Residual Segmentation Network",
+    image: project4,
+    description:
+      "This is a research initiative conducted for the Gemastik XV 2022 ICT Scientific Paper competition, where my team and I earned a silver medal. We proposed a novel network model combining Improved Residual Networks and Channel Attention for high resolution satelite building image segmentation. Our model demonstrated superior performance, surpassing previous methods with higher F1 Score and IoU metrics while mantaining lower parameters.",
+    technologies: ["Python", "OpenCV", "TensorFlow"],
   },
   {
     title: "E-Mail Automation using Python and SMTP",
     image: project1,
     description:
-      "This project is a practical implementation of basic Python programming concepts that I learned during my initial stages of learning. The program automates the process of sending emails, including subjects, attachments, and message content, to multiple recipients list.",
+      "This project is a practical implementation of foundational Python programming concepts that I developed during the early stages of my learning journey. The program automates the process of sending emails, including subjects, attachments, and message content, to a list of multiple recipients. This project highlights my ability to apply basic programming skills to create efficient solutions for real-world tasks, demonstrating my growth in software development.",
     technologies: ["Python", "SMTP", "CRUD"],
   },
 ];
